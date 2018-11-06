@@ -44,5 +44,5 @@ const container = document.querySelector(".journal_entry");
 //     return `<h1 class="${style}">${journalEntry}</h1>`
 // }
 
-console.log(makeJournalEntryComponent(journalEntry[2]));
-container.innerHTML = makeJournalEntryComponent(journalEntry[2])
+console.log(makeJournalEntryComponent(journalEntry[1]));
+container.innerHTML = makeJournalEntryComponent(journalEntry[1])
